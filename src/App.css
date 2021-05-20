@@ -30,3 +30,50 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  display: inline;
+  padding: 10px;
+  color: #eaebed;
+  font-size: large;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+h2 {
+  color: #b5c7cf;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+h4 {
+  color: #b5c7cf;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+ul {
+  margin: 0;
+  padding-bottom: 12px;
+  justify-content: space-between;
+  background-color: #007090;
+}
+
+li:hover {
+  color: #73cca8;
+  border-bottom: 3px solid #1a936f;
+}
+
+h2,
+h4 {
+  padding-top: 0;
+  margin: 0%;
+}
+
+.header-text {
+  padding-top: 75px;
+}
+
+.header-intro {
+  margin: auto;
+  width: 500px;
+  color: #b5c7cf;
+  word-wrap: break-word;
+}
